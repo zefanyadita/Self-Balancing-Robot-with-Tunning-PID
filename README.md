@@ -16,7 +16,10 @@
 
 ---
 ### How it works?
-![My Image](1.jpeg)
+1. The MPU6050 sensor equipped with an accelerometer and gyroscope is a key component in the self-balancing robot. An accelerometer measures acceleration, while a gyroscope measures the rate of change in angle. With information from these two sensors, the robot can know its position and movement.
+2. Data from the sensors is sent to the WEMOS D1 MINI microcontroller to process information quickly. This microcontroller is programmed and equipped with a PID (Proportional, Integral, Derivative) control algorithm to regulate robot movement and maintain balance.
+3. The PID algorithm is used to create an automatic control system that is responsive to changes in position and movement. In self-balancing robots, the PID algorithm helps calculate the error between the actual position and the desired position, then adjusts the motor speed to reduce this error.
+4. The WEMOS D1 MINI microcontroller uses information from the MPU6050 sensor to control the speed of each motor independently to maintain the robot's balance. If the robot starts to tilt forward or backward, the microcontroller will adjust the wheel speed to correct its position.
 
 ### The Methode
 ![My Image](7.jpeg)
