@@ -2,7 +2,7 @@
 
 ### Project 
 - Self Balancing Robot
-  Self Balancing robot (balancing robot) is a mobile robot with two wheels on the right and left sides which is designed to be able to maintain balance automatically without the need for human intervention. The robot will not be balanced if it is not controlled during its movement. Balancing robot is a development of the inverted pendulum model which is placed on a wheeled robot. In this case the control method used is the PID (proportional integral derivative) control method.
+Self Balancing robot (balancing robot) is a mobile robot with two wheels on the right and left sides which is designed to be able to maintain balance automatically without the need for human intervention. The robot will not be balanced if it is not controlled during its movement. Balancing robot is a development of the inverted pendulum model which is placed on a wheeled robot. In this case the control method used is the PID (proportional integral derivative) control method.
   
   ![My Image](5.png)
   
